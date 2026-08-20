@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hengki Supriadi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Exo+2:wght@300;400;500;600;700&family=Audiowide&display=swap" rel="stylesheet">
+    <link href="tooplate-neural-style.css" rel="stylesheet">
+    
+<!--
+
+Tooplate 2139 Neural Portfolio
+
+https://www.tooplate.com/view/2139-neural-portfolio
+
+Free HTML CSS Template
+
+-->
+
+</head>
+<body>
+    <canvas id="neural-bg"></canvas>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo-container">
+                <svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Neural Network Logo -->
+                    <circle cx="50" cy="20" r="8" fill="none" stroke="#00ffff" stroke-width="2"/>
+                    <circle cx="25" cy="50" r="8" fill="none" stroke="#ff00ff" stroke-width="2"/>
+                    <circle cx="75" cy="50" r="8" fill="none" stroke="#ff00ff" stroke-width="2"/>
+                    <circle cx="50" cy="80" r="8" fill="none" stroke="#ffff00" stroke-width="2"/>
+                    
+                    <!-- Connections -->
+                    <line x1="50" y1="28" x2="25" y2="42" stroke="#00ffff" stroke-width="1" opacity="0.6"/>
+                    <line x1="50" y1="28" x2="75" y2="42" stroke="#00ffff" stroke-width="1" opacity="0.6"/>
+                    <line x1="25" y1="58" x2="50" y2="72" stroke="#ff00ff" stroke-width="1" opacity="0.6"/>
+                    <line x1="75" y1="58" x2="50" y2="72" stroke="#ff00ff" stroke-width="1" opacity="0.6"/>
+                    
+                    <!-- Center node -->
+                    <circle cx="50" cy="50" r="5" fill="#00ffff"/>
+                    <line x1="50" y1="28" x2="50" y2="45" stroke="#00ffff" stroke-width="1" opacity="0.6"/>
+                    <line x1="50" y1="55" x2="50" y2="72" stroke="#ffff00" stroke-width="1" opacity="0.6"/>
+                    <line x1="33" y1="50" x2="45" y2="50" stroke="#ff00ff" stroke-width="1" opacity="0.6"/>
+                    <line x1="55" y1="50" x2="67" y2="50" stroke="#ff00ff" stroke-width="1" opacity="0.6"/>
+                </svg>
+                <span class="logo-text">Hengki Supriadi</span>
+            </a>
+            
+            <div class="mobile-menu-toggle" id="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#about">Tentang Saya</a></li>
+                    <li><a href="#projects">Project</a></li>
+                    <li><a href="#skills">Skill</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="glitch" data-text="NEURAL NETWORK">Hengki Supriadi</h1>
+            <p class="subtitle">Web Developer | Leadership | Design Grafis | Digital Marketing</p>
+        </div>
+        <a href="#about" class="scroll-btn">
+            <div class="scroll-btn-inner">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M7 13l5 5 5-5M7 6l5 5 5-5"/>
+                </svg>
+            </div>
+        </a>
+    </section>
+
+    <section id="about" class="fade-in">
+        <h2 class="section-title">TENTANG SAYA</h2>
+        <div class="about-container">
+            <div class="about-image">
+                <div class="profile-img-wrapper">
+                    <div class="profile-img">
+                        <span>HS</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-content">
+               <h3>Crafting Digital Experiences</h3>
+                <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 20px;">
+                    Saya adalah seorang profesional digital yang berfokus pada programming, leadership, desain grafis, dan digital marketing. 
+                    Saya memiliki passion dalam membangun solusi digital, menciptakan desain yang kreatif, memimpin dan mengembangkan tim, 
+                    serta merancang strategi digital yang efektif untuk menghasilkan karya yang inovatif, fungsional, dan memiliki nilai.
+                </p>
+
+                <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-secondary);">
+                    Bagi saya, teknologi bukan hanya tentang kode, tetapi tentang bagaimana mengubah ide menjadi solusi yang memberikan 
+                    pengalaman, manfaat, dan dampak nyata melalui perpaduan teknologi, kreativitas, desain, leadership, dan strategi digital.
+                </p>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">30+</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">Years Exp</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Clients</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="fade-in">
+        <h2 class="section-title">PROJECTS</h2>
+
+        <div class="projects-grid">
+
+            <div class="glass-card project-card">
+                <h3 style="color: var(--primary);">Web & Application Development</h3>
+                <p style="color: var(--text-secondary);">
+                    Pengembangan website dan aplikasi berbasis Laravel, PHP, JavaScript, dan teknologi modern 
+                    dengan fokus pada sistem yang responsif, aman, dan mudah digunakan.
+                </p>
+            </div>
+
+            <div class="glass-card project-card">
+                <h3 style="color: var(--secondary);">Warehouse Management System</h3>
+                <p style="color: var(--text-secondary);">
+                    Pengembangan sistem manajemen gudang untuk mengelola produk, stok, transaksi, 
+                    warehouse, serta proses operasional secara terintegrasi dan efisien.
+                </p>
+            </div>
+
+            <div class="glass-card project-card">
+                <h3 style="color: var(--accent);">AI & Digital Health</h3>
+                <p style="color: var(--text-secondary);">
+                    Pengembangan platform digital kesehatan berbasis AI untuk edukasi dan deteksi dini anemia, 
+                    dilengkapi analisis, rekomendasi, dan fitur pendukung kesehatan.
+                </p>
+            </div>
+
+            <div class="glass-card project-card">
+                <h3 style="color: var(--primary);">Point of Sale System</h3>
+                <p style="color: var(--text-secondary);">
+                    Pengembangan sistem kasir dan manajemen penjualan dengan fitur barcode scanning, 
+                    manajemen produk, stok, transaksi, shift kasir, dan dashboard pengguna.
+                </p>
+            </div>
+
+            <div class="glass-card project-card">
+                <h3 style="color: var(--secondary);">Graphic Design & Branding</h3>
+                <p style="color: var(--text-secondary);">
+                    Perancangan identitas visual, logo, konten digital, dan berbagai kebutuhan desain 
+                    untuk membangun brand yang profesional, kreatif, dan memiliki karakter yang kuat.
+                </p>
+            </div>
+
+            <div class="glass-card project-card">
+                <h3 style="color: var(--accent);">Digital Marketing</h3>
+                <p style="color: var(--text-secondary);">
+                    Perencanaan dan pengembangan strategi digital marketing melalui content creation, 
+                    branding, social media, serta strategi komunikasi digital untuk meningkatkan engagement dan awareness.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="skills" class="fade-in">
+        <h2 class="section-title">SKILLS</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-node">
+                <span>Laravel</span>
+            </div>
+
+            <div class="skill-node">
+                <span>PHP</span>
+            </div>
+
+            <div class="skill-node">
+                <span>JavaScript</span>
+            </div>
+
+            <div class="skill-node">
+                <span>HTML & CSS</span>
+            </div>
+
+            <div class="skill-node">
+                <span>MySQL</span>
+            </div>
+
+            <div class="skill-node">
+                <span>Vue.js</span>
+            </div>
+
+            <div class="skill-node">
+                <span>UI/UX Design</span>
+            </div>
+
+            <div class="skill-node">
+                <span>Graphic Design</span>
+            </div>
+
+            <div class="skill-node">
+                <span>Branding</span>
+            </div>
+
+            <div class="skill-node">
+                <span>Digital Marketing</span>
+            </div>
+
+            <div class="skill-node">
+                <span>Leadership</span>
+            </div>
+
+            <div class="skill-node">
+                <span>Project Management</span>
+            </div>
+
+        </div>
+    </section>
+
+   <section id="contact" class="fade-in">
+        <h2 class="section-title">CONTACT</h2>
+
+        <form class="contact-form glass-card">
+            <div class="form-group">
+                <input type="text" placeholder="Nama Lengkap" required>
+            </div>
+
+            <div class="form-group">
+                <input type="email" placeholder="Alamat Email" required>
+            </div>
+
+            <div class="form-group">
+                <textarea rows="5" 
+                    placeholder="Ceritakan project atau kebutuhan Anda..."
+                    required></textarea>
+            </div>
+
+            <button type="submit" class="neural-btn">
+                KIRIM PESAN
+            </button>
+        </form>
+    </section>
+
+   <footer>
+    <div class="footer-content">
+
+        <!-- Navigation -->
+        <div class="footer-section">
+            <h3>Navigasi</h3>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang Saya</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#skills">Skill</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </div>
+
+        <!-- Services -->
+        <div class="footer-section">
+            <h3>Services</h3>
+            <ul>
+                <li><a href="#projects">Web Development</a></li>
+                <li><a href="#projects">Graphic Design</a></li>
+                <li><a href="#projects">UI/UX Design</a></li>
+                <li><a href="#projects">Digital Marketing</a></li>
+                <li><a href="#projects">IT Consultation</a></li>
+            </ul>
+        </div>
+
+        <!-- Connect -->
+        <div class="footer-section">
+            <h3>Let's Connect</h3>
+
+            <p style="color: var(--text-secondary); margin-bottom: 15px;">
+                Mari berkolaborasi dan ciptakan solusi digital yang inovatif,
+                kreatif, dan berdampak.
+            </p>
+
+            <div class="social-links">
+
+                <!-- GitHub -->
+                <a href="#" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+                    <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577
+                        0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07
+                        3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084
+                        1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776
+                        .417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38
+                        1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23
+                        .96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552
+                        3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84
+                        1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36
+                        .81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57
+                        C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12"/>
+                    </svg>
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="#" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                    <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853
+                        0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9
+                        1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337
+                        7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063
+                        2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925
+                        2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225
+                        0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771
+                        24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774
+                        23.2 0 22.222 0h.003z"/>
+                    </svg>
+                </a>
+
+                <!-- Instagram -->
+                <a href="#" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                    <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.17.054 1.97.24
+                        2.427.403a4.92 4.92 0 0 1 1.77 1.153 4.92 4.92 0 0 1
+                        1.153 1.77c.163.457.35 1.257.403 2.427.058 1.266.07
+                        1.646.07 4.85s-.012 3.584-.07 4.85c-.054 1.17-.24
+                        1.97-.403 2.427a4.902 4.902 0 0 1-1.153 1.77 4.902
+                        4.902 0 0 1-1.77 1.153c-.457.163-1.257.35-2.427.403
+                        -1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.17
+                        -.054-1.97-.24-2.427-.403a4.902 4.902 0 0 1-1.77-1.153
+                        4.902 4.902 0 0 1-1.153-1.77c-.163-.457-.35-1.257-.403
+                        -2.427C1.175 15.584 1.163 15.204 1.163 12s.012-3.584
+                        .07-4.85c.054-1.17.24-1.97.403-2.427a4.92 4.92 0 0 1
+                        1.153-1.77 4.92 4.92 0 0 1 1.77-1.153c.457-.163
+                        1.257-.35 2.427-.403C8.416 2.175 8.796 2.163 12 2.163zm0
+                        3.675a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0
+                        0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998
+                        3.999 3.999 0 0 1 0 7.998zm7.845-10.19a1.44 1.44
+                        0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0z"/>
+                    </svg>
+                </a>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>
+            &copy; 2026 <strong>Hengki Supriadi</strong>.
+            All Rights Reserved.
+        </p>
+    </div>
+</footer>
+<script src="tooplate-neural-scripts.js"></script>
+
+</body>
+</html>
